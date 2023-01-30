@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "lib": ["ES2015","ES2016","ES2017","ES2018"],
+        "target": "ES5",
+        "outDir": "./dist",
+        "esModuleInterop": true
+    },
+    "exclude": ["node_modules"],
+    "include": ["src/**/*"]
+}
